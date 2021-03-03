@@ -47,10 +47,10 @@ public class PlayerMovement : MonoBehaviour
 
     void transformSprite()
     {
-        if (this.gameObject.transform.position.y < -2.9)
+        /*if (this.gameObject.transform.position.y < -2.9)
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
         }
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runspeed;
+        */horizontalMove = Input.GetAxisRaw("Horizontal") * runspeed;
     }
 }
